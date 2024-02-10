@@ -1,0 +1,31 @@
+.tab-list {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.tab {
+  flex: 1;
+  cursor: pointer;
+  background-color: transparent;
+  border-bottom: 3px solid #d1cece;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  color: #6b6b6b;
+  white-space: nowrap;
+  padding: 12px 0px;
+}
+
+.tab:hover {
+  color: #000;
+}
+
+.tab.active {
+  border-bottom-color: #000;
+  color: #000;
+}
+
+.tab-panel {
+  padding: 20px 0px;
+  display: block;
+}

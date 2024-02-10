@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./tooltip.css");
+@import url("./tab.css");
+@import url("./disclosure.css");
+@import url("./popover.css");
